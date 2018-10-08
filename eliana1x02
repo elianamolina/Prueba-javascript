@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <h1>Bienvenido a las instrucciones de salida</h1>
+      <p> id="miParrafo">Parrafo de prueba</p>
+      <script>
+        alert("hola");
+        document.write("<h2>¿Que tal?</h2>");
+        document.getElementById(miParrafo)
+      </script>
+  </body>
+</html>
