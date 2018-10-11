@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    alert("bienvenido a nuestra tienda. Permitame recomendarle los mejore melones")
+    var peso
+    peso = prompt ("¿cuantos kilogramos quieres?")
+    var precio = (peso * 2)
+    document.write("El precio de su compra es: " + precio "€. Gracias por su visita. Espero que vuevas pronto")
+
+
+    </script>
+
+  </body>
+</html>
