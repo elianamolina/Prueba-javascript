@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var numero1 = prompt("Dime un numero");
+    var numero2 = prompt("Dime otro numero");
+    var numero3 = prompt("Dime que quieres:suma , resta, multiplicacion y division");
+
+    if(numero3 == "suma"){
+      alert(parseInt(numero1) + parseInt(numero2));
+    } else if (numero3 == "resta"){
+      alert(numero1 - numero2);
+    } else if (numero3 == "multiplicacion"){
+      alert(numero1 * numero2);
+    } else if (numero3 == "division"){
+      alert(numero1 / numero2);
+    }else{
+      alert("no has elegido una operacion correcta")
+    }
+
+    </script>
+
+  </body>
+</html>
